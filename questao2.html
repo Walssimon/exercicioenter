@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Bem Vindo</h1>
+    <h2>Multiplicação</h2>
+
+    <p>Insira o primeiro número aqui:
+    <input id="numero1" type="number">
+    </p>
+    
+    <p>Insira o segundo número aqui:
+        <input id="numero2" type="number">
+        </p> 
+
+        <button type="submit" onclick="alert(multiplicar())">Enviar</button>
+</body>
+
+<script>
+    var numero1 = document.getElementById('numero1');
+    var nuemro2 = document.getElementById('numero2');
+
+    function multiplicar (){
+        return numero1 * nuemro2;
+        
+    }
+
+    
+</script>
+</html>

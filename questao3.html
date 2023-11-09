@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>positivo</title>
+   <input id="textinput" name="textinput" value="" type="text">
+   <button onclick="multiplicar()">Enviar</button>
+
+   <script type="text/javascript">
+    function multiplicar(){
+      var valor = document.getElementById("textinput").value;
+    if (valor > 0 ){
+        alert("Positivo")
+    }else if(valor < 0){
+        alert("Negativo")
+    }else{
+        alert("Seu numero é 0")
+    }
+    }
+   </script>
+
+ </head>
+</html>
